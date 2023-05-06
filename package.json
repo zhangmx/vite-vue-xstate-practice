@@ -1,0 +1,25 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "fsm": "ts-node --esm  ./src/fsm/firstMachine.machine.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@xstate/vue": "^2.0.0",
+    "ts-node": "^10.9.1",
+    "vue": "^3.2.47",
+    "xstate": "^4.37.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/compiler-sfc": "^3.2.47",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  }
+}
